@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Automation with Application" verbose="1" >
+    <test name="Regression1">
+    <classes>
+      <class name="com.phptravels.qa.testcases.LoginpageTest"/>
+     <class name="com.phptravels.qa.testcases.MyAccountPageTest"/>
+    </classes>
+  </test>
+</suite>
